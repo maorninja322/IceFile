@@ -1,0 +1,98 @@
+/* 
+
+		This is a modified css and is not compatible with blargboard 
+		 But if you use this for bb you'll get big graphical errors
+	If you don't like this wait for the next update we have new features
+							to change the design
+							
+*/
+
+@import "misc.css";
+
+body {
+	background-color: #444;
+	color: white;
+}
+
+div.greyer {
+	background: rgba(0,0,0,0.1);
+	padding: 2px;
+	margin-bottom: 2px;
+	border-top: solid 2px grey;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+div.redbox {
+	background: rgba(200,20,20,0.1);
+	padding: 2px;
+	margin-bottom: 2px;
+	border-top: solid 2px #911;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-bottom: 10px;
+	color: #a11;
+	font-weight: bold;
+}
+
+div.menu {
+	background: rgba(0,0,0,0.1);
+	border-top: solid 2px grey;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+/* Unused
+div.main {
+	width: 100%;
+	padding: 8px;
+	border: solid 4px grey;
+	border-radius: 8px;
+}*/
+
+table.menu_a_main {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 75%;
+	max-width: 200%;
+	padding: 8px;
+}
+
+td.left { width: 20%; padding-left: 10px; padding-right: 10px; }
+td.right { width: 80%; padding-left: 10px; padding-right: 10px; }
+
+a {
+	color: #888;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+a:hover {
+	font-size: 20px;
+    -webkit-animation: bigger 1s;  
+    animation: bigger 1s;
+}
+
+iframe.browsing {
+	width: 100%;
+	height: 380px;
+	border: none;
+}
+
+/* Animation */
+@-webkit-keyframes bigger {
+    from {font-size: 16px;}
+    to {font-size: 20px;}
+}
+
+/* Standard syntax */
+@keyframes bigger {
+    from {font-size: 16px;}
+    to {font-size: 20px;}
+}
