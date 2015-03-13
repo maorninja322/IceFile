@@ -1,0 +1,15 @@
+input {
+	background: grey;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	border: solid 2px #555;
+	font-weight: default;
+}
+input[type="submit"] {
+	font-weight: bold;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+input[type="text"] {
+	color: white;
+}
